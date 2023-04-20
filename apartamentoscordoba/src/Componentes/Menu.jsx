@@ -2,7 +2,6 @@ function Menu() {
 
     return (  
           
-        <body>
         <nav class="navbar navbar-expand-lg navbar-dark px-3">
             <figure class="nav_logo">
                 <a href="./index.html"><img src="./imagenes/logo.png" alt="logo Apartamentos" width="200px" /></a>
@@ -24,8 +23,7 @@ function Menu() {
                 </ul>
             </div>
         </nav>
-        
-      </body>
+         
       )
   
   }
