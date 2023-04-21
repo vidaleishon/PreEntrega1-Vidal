@@ -1,3 +1,5 @@
+import { NavLink, Link } from "react-router-dom"
+
 function Menu() {
 
     return (  
@@ -8,18 +10,11 @@ function Menu() {
             </figure>
             <div class="collapse navbar-collapse justify-content-end" id="navtoggler-aboutus">
                 <ul class="nav_menu">
+                    <NavLink to='/departamentos'>
                     <li>
                         <a>Departamentos</a>
                     </li>
-                    <li>
-                        <a>Galeria</a>
-                    </li>
-                    <li>
-                        <a>Contacto</a>
-                    </li>
-                    <li>
-                        <a>Sobre nosotros</a>
-                    </li>
+                    </NavLink>
                 </ul>
             </div>
         </nav>
