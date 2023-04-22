@@ -1,4 +1,5 @@
 import { NavLink, Link } from "react-router-dom"
+import CartWidget from "../CartWidget.jsx/CartWidget"
 
 function Menu() {
 
@@ -15,6 +16,9 @@ function Menu() {
                         <a>Departamentos</a>
                     </li>
                     </NavLink>
+                    <li>
+                       <a> <CartWidget/> </a>
+                    </li>
                 </ul>
             </div>
         </nav>

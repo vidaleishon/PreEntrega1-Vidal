@@ -10,7 +10,7 @@ export const gFetch = () => new Promise((res, rej) => {
     if (condition) {
         setTimeout(() => {
             res(departamentos)
-        }, 2000)
+        }, 1000)
     } else {
         rej('error')
     }

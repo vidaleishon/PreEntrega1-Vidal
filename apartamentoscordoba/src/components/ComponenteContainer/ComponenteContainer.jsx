@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { gFetch } from "../../utils/gFetch";
+import ItemCount from "../ItemCount/ItemCounts";
 
 export const ComponenteContainer = ({ catalogo }) => {
 
@@ -41,6 +42,9 @@ export const ComponenteContainer = ({ catalogo }) => {
                             </div>
                             <div className="card-footer"> 
                             <button>Detalles</button>
+                            </div>
+                            <div>
+                                <ItemCount/>
                             </div>
                             
                         </article>)}

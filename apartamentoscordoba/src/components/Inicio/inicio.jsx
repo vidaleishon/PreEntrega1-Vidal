@@ -1,7 +1,7 @@
 function Inicio() {  
 return (
 
-<body>
+<body class="inicio">
 
         <div class="logo-container">
             <img class="logo" src="./imagenes/logo.png" />
