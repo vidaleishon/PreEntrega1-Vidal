@@ -7,7 +7,9 @@ function Menu() {
           
         <nav class="navbar navbar-expand-lg navbar-dark px-3">
             <figure class="nav_logo">
-                <a href="./index.html"><img src="./imagenes/logo.png" alt="logo Apartamentos" width="200px" /></a>
+                <NavLink to={'./'}>
+                    <img src="../../imagenes/logo.png" alt="logo Apartamentos" width="200px"/>
+                </NavLink>
             </figure>
             <div class="collapse navbar-collapse justify-content-end" id="navtoggler-aboutus">
                 <ul class="nav_menu">
@@ -16,6 +18,7 @@ function Menu() {
                         <a>Departamentos</a>
                     </li>
                     </NavLink>
+                    
                     <li>
                        <a> <CartWidget/> </a>
                     </li>
