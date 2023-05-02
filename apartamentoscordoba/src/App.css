@@ -168,15 +168,6 @@ h3 {
   margin: 50px;
 }
 
-h5 {
-  text-align: center;
-  font-family: "Merriweather Sans", sans-serif;
-  line-height: 30px;
-  display: inline-block;
-  margin: 20px;
-  font-weight: 100;
-}
-
 #ubicacion {
   height: 30px;
 }
@@ -235,12 +226,6 @@ article {
   height: 300px;
 }
 
-#contacto {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-}
 
 @media screen and (max-width: 700px) {
 
@@ -252,10 +237,6 @@ article {
     width: 340px;
   }
 
-  #contacto {
-    grid-template-columns: auto;
-
-  }
 }
 
 .detalle {
@@ -267,33 +248,12 @@ article {
   align-content: center;
 }
 
-.barra_email {
-  width: 400px, x;
-  height: 850px, x;
-  background: rgba(66, 31, 41, 0.8);
-  border-radius: 43px;
-}
-
-.input_contact {
-  background: #00000033;
-  border: none;
-  color: white;
-  padding: 4px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
 button {
   margin: 20px;
   padding: 10px;
   width: 70px;
   background-color: #161619;
   color: #ffffffff;
-}
-
-.enviardatos:hover {
-  background-color: #333333c4;
-  transition: all 1s;
 }
 
 p {

@@ -5,12 +5,15 @@ import { ComponenteContainer } from './components/ComponenteContainer/Componente
 import CartWidget from './components/CartWidget.jsx/CartWidget'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Galerias from './components/Galeria/Galerias'
+import { CartContextProvider } from './context/CartContext'
 
 
 
 function App() {
 
   return (
+       
+    <CartContextProvider>
 
     <BrowserRouter>
     <Menu />
@@ -25,6 +28,9 @@ function App() {
       <Route path='*' element={<Navigate to='/'/>} />
     </Routes>
     </BrowserRouter>
+
+    </CartContextProvider>
+    
   )
 }
 
